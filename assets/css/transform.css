@@ -1,0 +1,14 @@
+section:first-child {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  display: inline-block;
+  text-align: center;
+  animation-name: rotate;
+  animation-duration: 4s;
+}
+
+@keyframes rotate {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }

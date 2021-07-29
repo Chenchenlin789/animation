@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+section {
+height: 100vh;
+text-align: center;
+}
+
+section i {
+    animation-name: pfeil;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pfeil {
+    0%{
+        transform: translateY(0vw)
+    }
+  
+    25% {
+        transform: translateY(1vw)
+    }
+    50% {
+        transform: translateY(2vw)
+    }
+  
+    100% {
+        transform: translateY(0vw)
+    }
+}
+
+
+
+body section:first-child { 
+    margin: 0 auto;
+    background-color: tomato;
+}
+
+
+body section:nth-of-type(2) { 
+    margin: 0 auto;
+    background-color: gold;
+
+}
+
+
+body section:nth-of-type(3)  { 
+    margin: 0;
+    background-color: lightgreen;
+
+}
+
+h1 {
+  padding-top: 30%;
+  text-align: center;
+}
+
+
+body section:nth-of-type(4)  { 
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+div {
+    width: 19.7%;
+    height: 60%;
+    border: 1px solid green;
+    text-align: center;
+    padding-top: 330px;
+    color: white;
+    background-color:black;
+
+}
+
+section div:first-child {
+    animation-name: blitz1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes blitz1 {
+    from {background-color:black;}
+    to {background-color: white;}
+  }
+
+
+section div:nth-of-type(2) {
+    animation-name: blitz2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes blitz2 {
+    from {background-color:black;}
+    to {background-color: white;}
+  }
+
+  section div:nth-of-type(3) {
+    animation-name: blitz3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes blitz3 {
+    from {background-color:black;}
+    to {background-color: white;}
+  }
+
+  section div:nth-of-type(4) {
+    animation-name: blitz4;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes blitz4 {
+    from {background-color:black;}
+    to {background-color: white;}
+  }
+
+  section div:nth-of-type(5) {
+    animation-name: blitz5;
+    animation-duration: 0.15s;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes blitz5 {
+    from {background-color:black;}
+    to {background-color: white;}
+  }
